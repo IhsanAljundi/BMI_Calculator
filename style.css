@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/seamless-pattern-fitness-accessories-flat-isolated-vector-illustration_98292-3904.jpg?w=826&t=st=1696557771~exp=1696558371~hmac=258e257055cbf013c4d2c55bec201bc84e8e05490941e4f84bc38ae12720d3a8');
+}
+
+.container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    text-align:left;
+    margin-bottom: 5vh;
+}
+h1 {
+    text-align: center;
+}
+
+label, input {
+    margin-bottom: 20px;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    font-size:medium;
+    width: 100%;
+    background-color: #6499E9;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 50px;
+    text-align: center;
+}
